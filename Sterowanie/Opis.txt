@@ -1,0 +1,9 @@
+W folderze Demo jest projekt demo do p³ytki któr¹ mamy. 
+
+Jest tam plik a_star.py, zawiera on funkcje wysy³aj¹ce dane do p³ytki steruj¹cej. Wywo³uj¹c funkcjê np. w³¹czamy lub wy³¹czamy diody lub ustawiamy silniki na zadan¹ prêdkoœæ. 
+
+W staticu jest plik js w którym znajduje siê miêdzy innymi funkcja (dragTo) która dzia³a jak joystick, tylko, ¿e joystick jest kwadratem i odczytuje po³o¿enie myszki. (dalej ³aduje dane do json'a i wysy³a ajax'em, ale tego na razie mo¿ecie nie tykaæ). T
+Trzeba napisaæ coœ takiego pythonie, tak ¿eby odczytywa³o joystick prawdziwy i niech na razie poprostu wyœwietla na wyjœciu 2 wartoœci czyli prêdkoœci silników. 
+
+
+

@@ -16,9 +16,10 @@ class PiServer(jsonSocket.ThreadedServer):
         if obj != '':
             x = obj.get("x")
             y = obj.get("y")
-            x, y = self._parser(x,y)
+            x, y = PiServer._parser(x, y)
             print x, y
 
+    @staticmethod
     def _parser(self, x, y):
         try:
             x = int(x)

@@ -1,7 +1,6 @@
 import jsonSocket
 import logging
 import time
-import json
 
 logger = logging.getLogger("RI-Project")
 
@@ -16,10 +15,11 @@ class PiServer(jsonSocket.ThreadedServer):
         if obj != '':
             x = obj.get("x")
             y = obj.get("y")
-            x, y = self._parser(x,y)
+            x, y = self._parser(x, y)
             print x, y
 
-    def _parser(self, x, y):
+    @staticmethod
+    def _parser(x, y):
         try:
             x = int(x)
             y = int(y)
@@ -49,7 +49,7 @@ if __name__ == "__main__":
                         "y": randint(0, 400),
                         "btn_1": "TODO",
                         "btn_2": "TODO"})
-        time.sleep(0.01)
+        time.sleep(0.001)
 
     time.sleep(3)
 

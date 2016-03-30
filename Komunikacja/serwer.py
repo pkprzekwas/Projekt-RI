@@ -1,7 +1,6 @@
 import jsonSocket
 import logging
 import time
-import json
 
 logger = logging.getLogger("RI-Project")
 
@@ -20,7 +19,7 @@ class PiServer(jsonSocket.ThreadedServer):
             print x, y
 
     @staticmethod
-    def _parser(self, x, y):
+    def _parser(x, y):
         try:
             x = int(x)
             y = int(y)

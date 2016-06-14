@@ -15,9 +15,9 @@ Są 3 podfoldery:
 * ArduinoApp - aplikacje na arduino (są 2 - jedna do płytki sterującej robotem druga do płytki obsługującej Nunchuck od Wii)
 * PcApp - aplikacja na komputer sterująca robotem za pomocą joysticka (Tu jest moduł komunikacji i joysticka)
 * RaspberryApp:
-1. JoystickApp.py - Aplikacja do zdalnej jazdy robotem (używa modułu komunikacji)
-2. cameraPrevievApp.py - Czysty podgląd z kamery
-3. keyboardApp.py - Sterowanie strzałkami z klawiatury komputera (pierwsze demo-używa jeszcze innego modułu komunikacji)
-4. selfDriveApp.py - Główna aplikacja, czyli robot jadący sam przez korytarz 
+1. JoystickDriven - Aplikacja do zdalnej jazdy robotem (używa modułu komunikacji)
+2. CamPreview - Czysty podgląd z kamery
+3. KeyboardDriven - Sterowanie strzałkami z klawiatury komputera (pierwsze demo-używa jeszcze innego modułu komunikacji)
+4. SelfDriven - Główna aplikacja, czyli robot jadący sam przez korytarz 
 
 

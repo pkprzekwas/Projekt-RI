@@ -1,5 +1,7 @@
 ﻿# Projekt-Robot z systemem wizyjnym
 
+![alt tag](https://github.com/pkprzekwas/Projekt-RI/blob/master/Resources/robot.jpg)
+
 ##Obecne zespoły i liderzy:
 
 * Sterowanie - Jakub Dębksi, Filip Dąbrowski

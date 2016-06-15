@@ -2,7 +2,7 @@
 
 ![alt tag](https://github.com/pkprzekwas/Projekt-RI/blob/master/Resources/robot.jpg)
 
-##Obecne zespoły i liderzy:
+## Obecne zespoły i liderzy:
 
 * Sterowanie - Jakub Dębksi, Filip Dąbrowski
 * Joystick - Anna Knap, Piotr Kopa-Ostrowski
@@ -11,7 +11,7 @@
 
 Finał naszej pracy znajduję się w folderze Release.
 
-##Przewodnik po plikach:
+## Przewodnik po plikach:
 
 Katalog 'Release' zawiera trzy podfoldery:
 * ArduinoApp - aplikacje na arduino (są 2 - jedna do płytki sterującej robotem druga do płytki obsługującej Nunchuck od Wii)
@@ -22,4 +22,6 @@ Katalog 'Release' zawiera trzy podfoldery:
   3. KeyboardDriven - Sterowanie strzałkami z klawiatury komputera (pierwsze demo-używa jeszcze innego modułu komunikacji)
   4. SelfDriven - Główna aplikacja, czyli robot jadący sam przez korytarz 
 
-
+## Komponenty:
+* [Raspberry Pi model B](https://en.wikipedia.org/wiki/Raspberry_Pi)
+* [Shileld na Raspberry do sterowania silnikami](https://www.pololu.com/product/3116)

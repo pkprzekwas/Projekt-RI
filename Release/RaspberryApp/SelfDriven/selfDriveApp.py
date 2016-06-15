@@ -1,12 +1,14 @@
 import sys
-print sys.argv[1]
-if sys.argv[1] != '2':
-    import cameraService
-else:
-    import cameraServiceV2 as cameraService
-
 import a_star
 import time
+
+try:
+    if sys.argv[1] == '1':
+        print "Using mode 1"
+        import cameraService
+except:    
+    print "Using mode 2"
+    import cameraServiceV2 as cameraService
 
 
 def main():
